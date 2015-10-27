@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Spanify</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- Travoltify references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/seedrandom.js"></script>
+    <script src="/MSAdvertisingJS/ads/ad.js"></script>
+    <script src="/js/fb.js"></script>
+    <script src="/js/jquery.1.2.1.js"></script>
+
+</head>
+<body>
+
+    <div id="ad2" style="position: absolute; width: 300px; height: 250px; z-index: 1;"
+         data-win-control="MicrosoftNSJS.Advertising.AdControl"
+         data-win-options="{applicationId: '5755fc4f-174c-4cac-82ef-26b4255f3ca3', adUnitId: '10718195'}">
+    </div>
+    <div id="ad1" style="position: absolute; width: 300px; height: 250px; z-index: 1; "
+         data-win-control="MicrosoftNSJS.Advertising.AdControl"
+         data-win-options="{applicationId: '5755fc4f-174c-4cac-82ef-26b4255f3ca3', adUnitId: '10718196'}">
+    </div>
+
+	<div id="panel">
+        <div id="title">
+            Spanify Your Name
+        </div>
+        <div class="input">
+            <input class="unedited int_input" type="text" id="input_name" value="Type your name" maxlength="30" onkeypress="return IsAlphaNumeric(event);" ondrop="return false;">
+        </div>
+        <div class="buttons">
+            <div id="btn_generate_girl" class="myButton girl">
+                I'm a girl
+            </div>
+            <div id="btn_generate_boy" class="myButton boy">
+                I'm a boy
+            </div>
+            <div style="clear:both"></div>
+        </div>
+        <div id="name_here" class="name_here">
+            
+        </div>
+        
+        <div id="facebook" class="facebook">
+            <div id="sharerDialog"><div class="_5gqn"><div class="clearfix"><table class="uiGrid _51mz lfloat _ohe" cellspacing="0" cellpadding="0"><tbody><tr class="_51mx"><td class="_51m-"><i class="_5gqo img sp_7877sl sx_593b89"><u>Facebook</u></i></td><td class="_51m- _51mw"><span class="_5gqp fcw">Share on Facebook</span></td></tr></tbody></table><div class="rfloat _ohf"></div></div></div></div>
+        </div>
+
+    </div>
+
+    <div id="ad" style="position: absolute; width: 300px; height: 600px; z-index: 1;"
+         data-win-control="MicrosoftNSJS.Advertising.AdControl"
+         data-win-options="{applicationId: '5755fc4f-174c-4cac-82ef-26b4255f3ca3', adUnitId: '10712882'}">
+    </div>
+    
+    <script src="/js/spanify.js"></script>
+
+</body>
+</html>

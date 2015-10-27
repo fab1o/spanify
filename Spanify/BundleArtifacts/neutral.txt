@@ -1,0 +1,1 @@
+MainPackage=C:\Users\Fabio Costa\Dropbox\Metro.Apps\Spanify\Spanify\bin\Release\Spanify_1.2.0.8_Bundle\Spanify_1.2.0.8_AnyCPU.appx
