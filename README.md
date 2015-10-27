@@ -1,6 +1,7 @@
 
 # Spanify
-*The Windows 8 app to transform your name into a Spanish one
+*The [Windows Store app](https://www.microsoft.com/en-us/store/apps/spanify-your-name/9wzdncrdsdk1) to transform your name into a Spanish one
+
 
 ### Branches / Pull Requests
 
